@@ -2,11 +2,10 @@
 	padding-left: 40px;
 	padding-right: 40px;
 	background-color: #ffffff;
-	color: black;
+	color: #000000;
 	font-family: Helvetica Neue;
 	text-align: left;
 	margin: auto;
-	box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
 }
 body {
 	background-color: #D3D3D3;
@@ -30,7 +29,7 @@ table {
 .button {
     background-color: rgba(31, 73, 125, 0.8);
     border: none;
-    color: white;
+    color: #ffffff;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -44,7 +43,6 @@ table {
 	padding-bottom: 20px;
 	height: 300px;
 	width: 300px;
-
 }
 
 @-webkit-keyframes mymove {
@@ -83,6 +81,7 @@ li > span {
 	}
 	.container {
 		width: 75%;
+		box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
 	}
 	#header {
 	    -webkit-animation-name: mymove; /* Safari 4.0 - 8.0 */
@@ -94,3 +93,9 @@ li > span {
 	}
 }
 
+@media only screen and (max-width: 600px) {
+	.container {
+		padding-left:30px;
+		padding-right:30px;
+	}
+}
