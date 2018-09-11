@@ -26,9 +26,6 @@ input {
 table {
 	width: 50%;
 }
-th, td {
-    width: 100%;
-}
 
 .button {
     background-color: rgba(31, 73, 125, 0.8);
